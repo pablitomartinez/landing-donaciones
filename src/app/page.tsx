@@ -1,5 +1,6 @@
 import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
+import AboutProjectSection from "./components/sections/AboutProjectSectino";
 import HeroSection from "./components/sections/HeroSection";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
      
       <main className="flex-grow" >
         <HeroSection />
+        <AboutProjectSection />
         <Footer />
       </main>
     </div>
