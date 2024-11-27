@@ -1,3 +1,4 @@
+import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
 import HeroSection from "./components/sections/HeroSection";
 
@@ -8,6 +9,7 @@ export default function Home() {
      
       <main className="flex-grow" >
         <HeroSection />
+        <Footer />
       </main>
     </div>
   );
